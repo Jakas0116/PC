@@ -3,7 +3,6 @@ import re
 img = Image.open("oxygen.png")
 rgb_img = img.convert('RGB')
 li = []
-answer = []
 i= 0
 while i < rgb_img.size[0]:
     r, g, b = rgb_img.getpixel((i,45))
